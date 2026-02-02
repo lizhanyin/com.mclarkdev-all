@@ -1,0 +1,45 @@
+[submodule "liblog"]
+	path = liblog
+	url = https://github.com/LibAPIs/LibLog.git
+[submodule "libloggelf"]
+	path = libloggelf
+	url = https://github.com/LibAPIs/LibLogGELF.git
+[submodule "libwebsvc"]
+	path = libwebsvc
+	url = https://github.com/LibAPIs/LibWebSvc.git
+[submodule "libobjectcache"]
+	path = libobjectcache
+	url = https://github.com/LibAPIs/LibObjectCache.git
+[submodule "libmetrics"]
+	path = libmetrics
+	url = https://github.com/LibAPIs/LibMetrics.git
+[submodule "libdb"]
+	path = libdb
+	url = https://github.com/LibAPIs/LibDB.git
+[submodule "libsockets"]
+	path = libsockets
+	url = https://github.com/LibAPIs/LibSockets.git
+[submodule "libapriltag"]
+	path = libapriltag
+	url = https://github.com/LibAPIs/LibAprilTag.git
+[submodule "libusbkey"]
+	path = libusbkey
+	url = https://github.com/LibAPIs/LibUsbKey.git
+[submodule "libtmachine"]
+	path = libtmachine
+	url = https://github.com/LibAPIs/LibTMachine.git
+[submodule "libkeyhook"]
+	path = libkeyhook
+	url = https://github.com/LibAPIs/LibKeyhook.git
+[submodule "libargs"]
+	path = libargs
+	url = https://github.com/LibAPIs/LibArgs.git
+[submodule "libextras"]
+	path = libextras
+	url = https://github.com/LibAPIs/LibExtras.git
+[submodule "libobjectpooler"]
+	path = libobjectpooler
+	url = https://github.com/LibAPIs/LibObjectPooler.git
+[submodule "liblightify"]
+	path = liblightify
+	url = https://github.com/LibAPIs/LibLightify.git

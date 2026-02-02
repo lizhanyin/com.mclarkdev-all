@@ -1,0 +1,29 @@
+name: Daily Submodule Sync
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天午夜 UTC
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update submodules
+        run: |
+          git submodule update --remote
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No changes"
+          else
+            git add .
+            git commit -m "Update submodules to latest"
+            git push
+          fi

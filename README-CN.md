@@ -1,14 +1,13 @@
 # com.mclarkdev-all
+com.mclarkdev LibAPIs 系列库的整合
 
-Integration of com.mclarkdev LibAPIs series libraries.
+由于原维护者不再向中央仓库推送新版本，我希望自行拉取并编译这些库。但这些库分散在多个仓库，拉取和编译较为麻烦，因此创建了这个整合库。
 
-Since the original maintainer has not continued to push new versions to the central repository, I wanted to pull and compile these libraries myself. However, the series of libraries are divided into multiple repositories, making pulling and compiling relatively troublesome, so I created this repository for integration.
+整个库的实际代码版权归属 [mclarkdev.com](https://github.com/LibAPIs)。
 
-The actual copyright of the entire library belongs to [mclarkdev.com](https://github.com/LibAPIs).
+本库仅用于整合，如果有人认为这侵犯了版权，请在 issue 中留言，我将删除此库。
 
-This repository is only for integration; if anyone believes this infringes on copyright, please leave a message in the issues, and I will delete this repository.
-
-Includes:
+包含：
 
 [liblog](https://github.com/LibAPIs/LibLog.git)
 
